@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Multer uploads (if you're storing temporarily)
+uploads/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+
+# JSON data files simulating DB (if you want to keep these local)
+data/users.json
+data/videos.json
